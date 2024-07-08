@@ -1,6 +1,6 @@
-## AT Manifacturing
+## AT-MFG
 
-Assimilate Manifacturing 
+Assimilate Manufacturing 
 
 #### License
 

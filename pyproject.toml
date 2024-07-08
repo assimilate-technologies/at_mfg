@@ -3,7 +3,7 @@ name = "at_mfg"
 authors = [
     { name = "Assimilate Technologies", email = "developer@assimilatetechnologies.com"}
 ]
-description = "Assimilate Manifacturing "
+description = "Assimilate Manufacturing "
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

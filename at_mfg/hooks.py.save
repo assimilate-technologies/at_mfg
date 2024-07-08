@@ -1,7 +1,7 @@
 app_name = "at_mfg"
-app_title = "AT-MFG"
+app_title = "AT Manifacturing"
 app_publisher = "Assimilate Technologies"
-app_description = "Assimilate Manufacturing "
+app_description = "Assimilate Manifacturing "
 app_email = "developer@assimilatetechnologies.com"
 app_license = "mit"
 # required_apps = []
@@ -227,3 +227,16 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+
+"Workflow State",
+"Workflow Action Master",
+{"doctype": "Workflow", "filters": []},
+{"doctype": "Notification", "filters": [[ "module", "=", "AT-HRMS" ]]},
+{"doctype": "Custom Field", "filters": [[ "module", "=", "AT-HRMS" ]]},
+{"doctype": "Role Profile", "filters": []},
+{"doctype": "Module Profile", "filters": []},
+{"doctype": "Workspace", "filters":[]},
+
+
+]
